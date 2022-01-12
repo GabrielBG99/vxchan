@@ -1,0 +1,16 @@
+postgres:
+  host: postgres
+  user: admin
+  password: admin
+  dbName: vxchan
+  port: "5432"
+  timezone: America/Sao_Paulo
+  ssl: false
+
+fileStorage:
+  folder: staticfiles
+
+logger:
+  name: vxchan
+  level: info
+  filepath: /var/log/vxchan.log
